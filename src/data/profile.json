@@ -1,0 +1,69 @@
+{
+  "personalInfo": {
+    "name": "Hussein Rajab",
+    "role": "Full Stack Developer & Computer Science Student",
+    "tagline": "Building scalable web applications with modern technologies",
+    "bio": "I'm a passionate developer and computer science student with a strong focus on creating efficient, user-friendly web applications. I specialize in full-stack development and continuously explore new technologies to solve real-world problems.",
+    "email": "husen_.rajb@outlook.com",
+    "location": "Latakia, Syria",
+    "resume": "/resume.pdf",  
+    "avatar": "/avatar.jpg"
+  },
+  "socialLinks": {
+    "github": "https://github.com/frbhusen",
+    "linkedin": "",
+    "instagram": "https://instagram.com/husr0",
+    "coursera": "https://www.coursera.org/learner/hussein0rajab"
+  },
+  "about": {
+    "description": "I am a dedicated developer with expertise in building modern web applications. My journey in software development began with a curiosity about how things work, which evolved into a passion for creating solutions that make a difference.",
+    "focusAreas": [
+      {
+        "title": "Web Development",
+        "description": "Creating responsive and performant web applications using modern frameworks and best practices."
+      },
+      {
+        "title": "Backend Engineering",
+        "description": "Building scalable server-side applications with robust APIs and efficient database management."
+      },
+      {
+        "title": "Problem Solving",
+        "description": "Applying algorithmic thinking and data structures to solve complex technical challenges."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Crafting intuitive user interfaces with attention to detail and accessibility."
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Informatics Engineer",
+      "institution": "Latakia University",
+      "period": "2025 - Present",
+      "description": "Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering",
+      "gpa": "N/A"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Intern",
+      "company": "Tech Company Name",
+      "period": "Summer 2024",
+      "description": "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver features on time.",
+      "achievements": [
+        "Improved application performance by 30%",
+        "Implemented new features used by 10,000+ users"
+      ]
+    },
+    {
+      "title": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "period": "2025 - Present",
+      "description": "Built custom websites and web applications for clients across various industries.",
+      "achievements": [
+        
+      ]
+    }
+  ]
+}

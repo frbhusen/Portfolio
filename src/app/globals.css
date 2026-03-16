@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: oklch(0.97 0.01 221.2);
+  --color-primary-100: oklch(0.93 0.02 221.2);
+  --color-primary-200: oklch(0.85 0.06 221.2);
+  --color-primary-300: oklch(0.74 0.13 221.2);
+  --color-primary-400: oklch(0.63 0.21 221.2);
+  --color-primary-500: oklch(0.55 0.23 221.2);
+  --color-primary-600: oklch(0.47 0.22 221.2);
+  --color-primary-700: oklch(0.40 0.19 221.2);
+  --color-primary-800: oklch(0.33 0.15 221.2);
+  --color-primary-900: oklch(0.27 0.11 221.2);
+  
+  --color-gray-50: oklch(0.98 0 0);
+  --color-gray-100: oklch(0.96 0 0);
+  --color-gray-200: oklch(0.92 0 0);
+  --color-gray-300: oklch(0.84 0 0);
+  --color-gray-400: oklch(0.70 0 0);
+  --color-gray-500: oklch(0.55 0 0);
+  --color-gray-600: oklch(0.43 0 0);
+  --color-gray-700: oklch(0.35 0 0);
+  --color-gray-800: oklch(0.26 0 0);
+  --color-gray-900: oklch(0.17 0 0);
+  --color-gray-950: oklch(0.10 0 0);
+}
+
+/* Base palette */
+:root {
+  color-scheme: light;
+  --bg-base: #ffffff;
+  --fg-base: #0f172a;
+  --surface: #ffffff;
+  --surface-muted: #f8fafc;
+  --accent-400: #7ab6ff;
+  --accent-500: #4f9dff;
+  --accent-600: #2f89f5;
+  /* reversed: light mode uses dark navbar */
+  --navbar-bg: rgba(0, 0, 0, 0.8);
+  --navbar-bg-scrolled: rgba(0, 0, 0, 0.9);
+  --navbar-blur: blur(10px);
+  --navbar-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+html.dark {
+  color-scheme: dark;
+  --bg-base: #f7f9fc;           /* off-white */
+  --fg-base: #0f172a;           /* deep slate text */
+  --surface: #eff3f9;           /* light card */
+  --surface-muted: #e6ebf3;     /* muted blocks */
+  --accent-400: #a5cfff;        /* light blue */
+  --accent-500: #7ab6ff;
+  --accent-600: #549de8;
+  /* soften grays for dark mode */
+  --color-gray-950: oklch(0.93 0 0);
+  --color-gray-900: oklch(0.90 0 0);
+  --color-gray-800: oklch(0.86 0 0);
+  /* reversed: dark mode uses light navbar */
+  --navbar-bg: rgba(255, 255, 255, 0.8);
+  --navbar-bg-scrolled: rgba(255, 255, 255, 0.9);
+  --navbar-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--fg-base);
+}
+
+/* Navbar theming */
+.navbar {
+  background: var(--navbar-bg);
+  backdrop-filter: var(--navbar-blur);
+  -webkit-backdrop-filter: var(--navbar-blur);
+  transition: background-color 200ms ease, box-shadow 200ms ease, backdrop-filter 200ms ease;
+}
+
+.navbar.is-scrolled {
+  background: var(--navbar-bg-scrolled);
+  box-shadow: var(--navbar-shadow);
+}
+
+/* Soften component backgrounds/text in dark mode (class overrides) */
+.dark .dark\:bg-gray-900 { background-color: var(--surface) !important; }
+.dark .dark\:bg-gray-800 { background-color: var(--surface-muted) !important; }
+.dark .dark\:bg-gray-700 { background-color: var(--surface-muted) !important; }
+.dark .dark\:bg-gray-600 { background-color: var(--surface-muted) !important; }
+.dark .dark\:text-white { color: var(--fg-base) !important; }
+.dark .dark\:text-gray-300 { color: #1f2937 !important; }
+.dark .dark\:text-gray-400 { color: #374151 !important; }
+.dark .dark\:text-gray-200 { color: #111827 !important; }
+.dark .dark\:border-gray-800 { border-color: var(--surface-muted) !important; }
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: oklch(0.96 0 0);
+}
+
+:is(.dark *)::-webkit-scrollbar-track {
+  background-color: oklch(0.17 0 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: oklch(0.84 0 0);
+  border-radius: 9999px;
+}
+
+:is(.dark *)::-webkit-scrollbar-thumb {
+  background-color: oklch(0.35 0 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: oklch(0.70 0 0);
+}
+
+:is(.dark *)::-webkit-scrollbar-thumb:hover {
+  background-color: oklch(0.43 0 0);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: oklch(0.85 0.06 221.2);
+  color: oklch(0.17 0 0);
+}
+
+:is(.dark *)::selection {
+  background-color: oklch(0.33 0.15 221.2);
+  color: white;
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline-width: 2px;
+  outline-offset: 2px;
+  outline-color: oklch(0.55 0.23 221.2);
+}
