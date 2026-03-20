@@ -36,6 +36,18 @@
       "featured": true,
       "category": "Security"
     },
+    {
+      "id": 4,
+      "title": "Global Diplomacy: the United Nations in the World",
+      "issuer": "Coursera",
+      "issueDate": "Dec-2025",
+      "description": "",
+      "skills": ["Governance", "Social Justice", "Policy Analysis", "Advocacy", "Diplomacy", "International Relations", "Human Development", "Public Policies", "Case Studies", "Crisis Intervention", "Political Sciences", "World History"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/4K0TUTR96T1N",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~4K0TUTR96T1N/CERTIFICATE_LANDING_PAGE~4K0TUTR96T1N.jpeg",
+      "featured": true,
+      "category": "Diplomacy"
+    },
     
     
     {
