@@ -2,6 +2,30 @@
   "certificates": [
     {
       "id": 1,
+      "title": "Introduction to Ethical Hacking Principles",
+      "issuer": "Coursera",
+      "issueDate": "Sep-2024",
+      "description": "",
+      "skills": ["Information Systems Security", "Cyber Security Policies", "Cyber Risk", "Application Security", "Responsible AI", "General Data Protection Regulation (GDPR)", "Computer Security", "Data Ethics", "Cyber Governance"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/UHXBUI23S8VN",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UHXBUI23S8VN/CERTIFICATE_LANDING_PAGE~UHXBUI23S8VN.jpeg",
+      "featured": false,
+      "category": "Security"
+    },
+    {
+      "id": 2,
+      "title": "Generative AI: Prompt Engineering Basics",
+      "issuer": "Coursera",
+      "issueDate": "Sep-2025",
+      "description": "",
+      "skills": ["Prompt Patterns", "Decision Making", "AI Workflows", "Prompt Engineering", "Context Management", "ChatGPT", "Generative AI"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/ACXLM10P8RBS",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ACXLM10P8RBS/CERTIFICATE_LANDING_PAGE~ACXLM10P8RBS.jpeg",
+      "featured": true,
+      "category": "AI"
+    },
+    {
+      "id": 3,
       "title": "Ethical Hacking with Kali Linux",
       "issuer": "Coursera",
       "issueDate": "Nov-2025",
@@ -10,43 +34,21 @@
       "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PTKJH5HK2R8C",
       "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~PTKJH5HK2R8C/CERTIFICATE_LANDING_PAGE~PTKJH5HK2R8C.jpeg",
       "featured": true,
-      "category": "Frontend"
+      "category": "Security"
     },
+    
+    
     {
-      "id": 2,
-      "title": "Back-End Development and APIs",
-      "issuer": "freeCodeCamp",
-      "issueDate": "2025-03",
-      "description": "Built and deployed backend APIs with Node.js and Express, with database integration and testing basics.",
-      "skills": ["Node.js", "Express", "MongoDB", "REST API"],
-      "credentialUrl": "https://freecodecamp.org/certification/example/backend",
-      "certificateImage": null,
-      "featured": true,
-      "category": "Backend"
-    },
-    {
-      "id": 3,
-      "title": "AWS Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "issueDate": "2024-11",
-      "description": "Validated foundational cloud knowledge including AWS core services, billing, and architecture principles.",
-      "skills": ["AWS", "Cloud", "Architecture", "Security"],
-      "credentialUrl": "https://aws.amazon.com/verification/example",
-      "certificateImage": null,
+      "id": 8,
+      "title": "Create a Resume and Cover Letter with Google Docs",
+      "issuer": "Coursera",
+      "issueDate": "March-2026",
+      "description": "",
+      "skills": ["Document Management", "File Management", "Personal Development", "Writing", "Google Docs", "Business Writing", "Productivity Software"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/K7KVDAG8M0VE",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~K7KVDAG8M0VE/CERTIFICATE_LANDING_PAGE~K7KVDAG8M0VE.jpeg",
       "featured": false,
-      "category": "Cloud"
-    },
-    {
-      "id": 4,
-      "title": "SQL for Data Analysis",
-      "issuer": "Udemy",
-      "issueDate": "2024-08",
-      "description": "Practical SQL training for querying, aggregations, joins, and reporting workflows.",
-      "skills": ["SQL", "PostgreSQL", "Data Analysis"],
-      "credentialUrl": "https://udemy.com/certificate/example-sql",
-      "certificateImage": null,
-      "featured": false,
-      "category": "Data"
+      "category": "Career"
     }
   ]
 }
