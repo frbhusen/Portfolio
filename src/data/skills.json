@@ -36,6 +36,11 @@
         { "name": "VS Code", "level": 95, "icon": "vscode" },
         { "name": "Microsoft Excel", "level": 80, "icon": "excel" },
         { "name": "Microsoft Word", "level": 85, "icon": "word" },
+        { "name": "LaTeX", "level": 90, "icon": "latex" },
+        { "name": "Adobe Photoshop", "level": 85, "icon": "photoshop" },
+        { "name": "Adobe Illustrator", "level": 50, "icon": "illustrator" },
+        { "name": "Windows PowerShell", "level": 70, "icon": "powershell" },
+        { "name": "Command Prompt (CMD)", "level": 60, "icon": "cmd" },
         { "name": "AI", "level": 90, "icon": "ai" },
         { "name": "Generative AI", "level": 90, "icon": "ai" }
       ]
@@ -43,6 +48,9 @@
     {
       "name": "Concepts & Practices",
       "skills": [
+        { "name": "Problem Solving", "level": 85, "icon": "problem-solving" },
+        { "name": "Mathematical Modeling", "level": 75, "icon": "mathematical-modeling" },
+        { "name": "System Design", "level": 80, "icon": "system-design" },
         { "name": "Responsive Design", "level": 80, "icon": "responsive" },
         { "name": "Testing", "level": 75, "icon": "testing" },
         { "name": "JWT Authentication", "level": 60, "icon": "jwt" }
