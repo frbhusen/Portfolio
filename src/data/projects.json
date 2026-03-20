@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A full-featured e-commerce platform with payment integration, product management, and order tracking. Built with modern technologies for scalability and performance.",
-      "longDescription": "Comprehensive e-commerce solution featuring product catalog, shopping cart, checkout process, order management, and admin dashboard. Implemented real-time orders tracking and email notifications.",
+      "title": "My Stickies",
+      "description": "A full-stack e-commerce web app using React and Node.js, featuring product catalog, cart, order management, and JWT-based admin authentication.",
+      "longDescription": "Full-stack e-commerce web application built with React and Node.js, featuring a product catalogue, shopping cart, order management, and a secure admin dashboard with JWT authentication.",
       "image": "/projects/ecommerce.jpg",
-      "technologies": ["HTML", "CSS","Node.js", "JavaScript", "MongoDB", "Express", "React", "JWT", "puppeteer"],
+      "technologies": ["Node.js", "JavaScript", "BootStrap", "MongoDB", "Express", "React", "JWT", "puppeteer"],
       "github": "https://github.com/frbhusen/my-stickies-store",
       "demo": "https://store.mystickies.tech",
       "featured": true,
@@ -14,63 +14,27 @@
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates, team collaboration features, and productivity analytics.",
-      "longDescription": "Project management tool with drag-and-drop task boards, real-time collaboration using WebSockets, file attachments, comments, time tracking, and detailed analytics dashboard. Supports multiple projects and team management.",
-      "image": "/projects/taskmanager.jpg",
-      "technologies": ["React", "Node.js", "Express", "PostgreSQL", "Socket.io", "Redux"],
-      "github": "https://github.com/yourusername/task-manager",
-      "demo": "https://taskmanager-demo.vercel.app",
+      "title": "Epay Store", 
+      "description": "A full-stack MERN e-commerce platform with multi-currency support, product reviews, JWT-authenticated admin dashboard, email notifications, and Docker/Nginx-ready deployment.",
+      "longDescription": "A full-stack MERN e-commerce platform featuring multi-currency pricing (SYP/USD), product ratings & reviews, a secure JWT-authenticated admin dashboard for inventory and order management, automated HTML email order notifications via Nodemailer, and Docker/Nginx-ready deployment configuration targeting Render, Vercel, and MongoDB Atlas.",
+      "image": "",
+      "technologies": ["React", "Node.js", "BootStrap", "MongoDB", "NextJS", "Express", "JWT"],
+      "github": "https://github.com/frbhusen/EPay-Store",
+      "demo": "https://e-pay-store.vercel.app/",
       "featured": true,
       "category": "Full Stack"
     },
     {
       "id": 3,
-      "title": "Weather Dashboard",
-      "description": "Real-time weather application with location-based forecasts, interactive maps, and weather alerts.",
-      "longDescription": "Weather application featuring current conditions, 7-day forecast, hourly predictions, weather maps, severe weather alerts, and location search. Integrates with multiple weather APIs for accurate data.",
-      "image": "/projects/weather.jpg",
-      "technologies": ["React", "TypeScript", "OpenWeather API", "Mapbox", "Chart.js"],
-      "github": "https://github.com/yourusername/weather-dashboard",
-      "demo": "https://weather-demo.vercel.app",
-      "featured": false,
-      "category": "Frontend"
-    },
-    {
-      "id": 4,
-      "title": "Social Media API",
-      "description": "RESTful API for a social media platform with authentication, posts, comments, and real-time notifications.",
-      "longDescription": "Backend API supporting user authentication (JWT), profile management, posts/comments CRUD operations, like/follow system, real-time notifications, image upload, and comprehensive testing suite.",
-      "image": "/projects/api.jpg",
-      "technologies": ["Node.js", "Express", "MongoDB", "JWT", "Redis", "AWS S3"],
-      "github": "https://github.com/yourusername/social-api",
+      "title": "C++ debugger",
+      "description": "Lightweight header-only C++ utility providing a variadic debug() macro for printing variable names and values (including STL containers) to stderr.",
+      "longDescription": "A lightweight C++ header-only utility that provides a variadic `debug()` macro for pretty-printing variable names and their values to `stderr` during local development, with support for all primitive types and iterable STL containers.",
+      "image": "",
+      "technologies": ["C++"],
+      "github": "https://github.com/frbhusen/Cpp-debugger",
       "demo": null,
       "featured": false,
-      "category": "Backend"
-    },
-    {
-      "id": 5,
-      "title": "Portfolio Generator",
-      "description": "Web application that helps developers create professional portfolio websites using customizable templates.",
-      "longDescription": "SaaS application allowing users to create portfolios by selecting templates, customizing colors/fonts, adding content through forms, and exporting static websites. Includes template editor and preview functionality.",
-      "image": "/projects/portfolio-gen.jpg",
-      "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
-      "github": "https://github.com/yourusername/portfolio-generator",
-      "demo": "https://portfolio-gen-demo.vercel.app",
-      "featured": true,
-      "category": "Full Stack"
-    },
-    {
-      "id": 6,
-      "title": "Code Snippet Manager",
-      "description": "Desktop application for organizing and managing code snippets with syntax highlighting and search.",
-      "longDescription": "Electron-based desktop app for saving, organizing, and quickly accessing code snippets. Features syntax highlighting, tag-based organization, full-text search, and cloud sync capabilities.",
-      "image": "/projects/snippets.jpg",
-      "technologies": ["Electron", "React", "TypeScript", "SQLite", "Monaco Editor"],
-      "github": "https://github.com/yourusername/snippet-manager",
-      "demo": null,
-      "featured": false,
-      "category": "Desktop"
+      "category": "Cpp"
     }
   ]
 }
