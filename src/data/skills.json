@@ -3,54 +3,44 @@
     {
       "name": "Languages",
       "skills": [
-        { "name": "TypeScript", "level": 90, "icon": "typescript" },
-        { "name": "JavaScript", "level": 95, "icon": "javascript" },
-        { "name": "Python", "level": 85, "icon": "python" },
-        { "name": "Java", "level": 75, "icon": "java" },
-        { "name": "SQL", "level": 80, "icon": "database" },
+        { "name": "JavaScript", "level": 80, "icon": "javascript" },
+        { "name": "TypeScript", "level": 75, "icon": "typescript" },
+        { "name": "Python", "level": 80, "icon": "python" },
+        { "name": "C++", "level": 85, "icon": "cpp" },
         { "name": "HTML/CSS", "level": 95, "icon": "html" }
       ]
     },
     {
       "name": "Frameworks & Libraries",
       "skills": [
-        { "name": "React", "level": 90, "icon": "react" },
-        { "name": "Next.js", "level": 85, "icon": "nextjs" },
-        { "name": "Node.js", "level": 88, "icon": "nodejs" },
-        { "name": "Express", "level": 85, "icon": "express" },
-        { "name": "Tailwind CSS", "level": 92, "icon": "tailwind" },
-        { "name": "Redux", "level": 80, "icon": "redux" }
+        { "name": "Bootstrap", "level": 80, "icon": "bootstrap" },
+        { "name": "React", "level": 70, "icon": "react" },
+        { "name": "Next.js", "level": 70, "icon": "nextjs" },
+        { "name": "Node.js", "level": 70, "icon": "nodejs" }
       ]
     },
     {
       "name": "Databases",
       "skills": [
-        { "name": "MongoDB", "level": 85, "icon": "mongodb" },
-        { "name": "PostgreSQL", "level": 80, "icon": "postgresql" },
-        { "name": "MySQL", "level": 78, "icon": "mysql" },
-        { "name": "Redis", "level": 70, "icon": "redis" }
+        { "name": "MongoDB", "level": 85, "icon": "mongodb" }
       ]
     },
     {
       "name": "Tools & Technologies",
       "skills": [
-        { "name": "Git", "level": 90, "icon": "git" },
-        { "name": "Docker", "level": 75, "icon": "docker" },
-        { "name": "AWS", "level": 70, "icon": "aws" },
+        { "name": "Git", "level": 80, "icon": "git" },
+        { "name": "GitHub", "level": 80, "icon": "github" },
         { "name": "Vercel", "level": 85, "icon": "vercel" },
-        { "name": "VS Code", "level": 95, "icon": "vscode" },
-        { "name": "Postman", "level": 88, "icon": "postman" }
+        { "name": "Heroku", "level": 85, "icon": "heroku" },
+        { "name": "VS Code", "level": 95, "icon": "vscode" }
       ]
     },
     {
       "name": "Concepts & Practices",
       "skills": [
-        { "name": "RESTful APIs", "level": 90, "icon": "api" },
-        { "name": "Responsive Design", "level": 92, "icon": "responsive" },
-        { "name": "Agile/Scrum", "level": 80, "icon": "agile" },
+        { "name": "Responsive Design", "level": 80, "icon": "responsive" },
         { "name": "Testing", "level": 75, "icon": "testing" },
-        { "name": "CI/CD", "level": 70, "icon": "cicd" },
-        { "name": "UI/UX Design", "level": 85, "icon": "design" }
+        { "name": "JWT Authentication", "level": 60, "icon": "jwt" }
       ]
     }
   ]

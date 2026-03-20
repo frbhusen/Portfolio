@@ -26,6 +26,18 @@
     },
     {
       "id": 3,
+      "title": "EduPath", 
+      "description": "A simple study platform where teachers manage subjects, sections, lessons, and MCQ tests; students take tests and see their marks.",
+      "longDescription": "A Full-Stack educational platform using Python (Flask) and MongoDB, implementing a role-based system for teachers and students. Designed RESTful routes and backend logic to manage hierarchical course structures (subjects → sections → lessons) and dynamic quiz generation. Integrated database operations using MongoDB for storing users, content, and results, with efficient querying and data relationships. Developed interactive frontend pages with form handling, session-based authentication, and real-time score tracking to enhance user experience.",
+      "image": "",
+      "technologies": ["Python", "Flask", "BootStrap", "MongoDB", "", "", "JWT"],
+      "github": "https://github.com/frbhusen/EPay-Store",
+      "demo": "https://e-pay-store.vercel.app/",
+      "featured": true,
+      "category": "Full Stack"
+    },
+    {
+      "id": 3,
       "title": "C++ debugger",
       "description": "Lightweight header-only C++ utility providing a variadic debug() macro for printing variable names and values (including STL containers) to stderr.",
       "longDescription": "A lightweight C++ header-only utility that provides a variadic `debug()` macro for pretty-printing variable names and their values to `stderr` during local development, with support for all primitive types and iterable STL containers.",
