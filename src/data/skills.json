@@ -32,7 +32,9 @@
         { "name": "GitHub", "level": 80, "icon": "github" },
         { "name": "Vercel", "level": 85, "icon": "vercel" },
         { "name": "Heroku", "level": 85, "icon": "heroku" },
-        { "name": "VS Code", "level": 95, "icon": "vscode" }
+        { "name": "VS Code", "level": 95, "icon": "vscode" },
+        { "name": "AI", "level": 90, "icon": "ai" },
+        { "name": "Generative AI", "level": 90, "icon": "ai" }
       ]
     },
     {
