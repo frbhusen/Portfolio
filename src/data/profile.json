@@ -1,12 +1,12 @@
 {
   "personalInfo": {
     "name": "Hussein Rajab",
-    "role": "Full Stack Developer & Computer Science Student",
-    "tagline": "Building scalable web applications with modern technologies",
-    "bio": "I'm a passionate developer and computer science student with a strong focus on creating efficient, user-friendly web applications. I specialize in full-stack development and continuously explore new technologies to solve real-world problems.",
+    "role": "Full-Stack Developer & Informatics Engineering Student",
+    "tagline": "Building scalable web applications and solving real-world problems",
+    "bio": "I am a first-year Informatics Engineering student with a strong focus on full-stack development, AI prompt engineering, and graphics design. I build practical solutions such as e-commerce platforms and educational systems.",
     "email": "husen_.rajb@outlook.com",
     "location": "Latakia, Syria",
-    "resume": "/resume.pdf",  
+    "resume": "/resume.pdf",
     "avatar": "/avatar.jpg"
   },
   "socialLinks": {
@@ -16,53 +16,61 @@
     "coursera": "https://www.coursera.org/learner/hussein0rajab"
   },
   "about": {
-    "description": "I am a dedicated developer with expertise in building modern web applications. My journey in software development began with a curiosity about how things work, which evolved into a passion for creating solutions that make a difference.",
+    "description": "I am a developer focused on building scalable web applications and educational platforms. My work combines full-stack development, problem solving, and system design to create impactful solutions.",
     "focusAreas": [
       {
         "title": "Web Development",
-        "description": "Creating responsive and performant web applications using modern frameworks and best practices."
+        "description": "Building full-stack web applications using modern technologies like React, Node.js, and Flask."
       },
       {
         "title": "Backend Engineering",
-        "description": "Building scalable server-side applications with robust APIs and efficient database management."
+        "description": "Designing APIs, managing databases, and handling application logic for scalable systems."
       },
       {
         "title": "Problem Solving",
-        "description": "Applying algorithmic thinking and data structures to solve complex technical challenges."
+        "description": "Teaching and applying algorithmic thinking using C++, mathematics, and logic."
       },
       {
-        "title": "UI/UX Design",
-        "description": "Crafting intuitive user interfaces with attention to detail and accessibility."
+        "title": "Educational Platforms",
+        "description": "Developing systems for managing courses, students, and learning content."
       }
     ]
   },
   "education": [
     {
-      "degree": "Informatics Engineer",
+      "degree": "Informatics Engineering",
       "institution": "Latakia University",
       "period": "2025 - Present",
-      "description": "Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering",
-      "gpa": "N/A"
+      "description": "Focusing on full-stack development using Flask, Node.js, and MongoDB, with an interest in building scalable real-world applications.",
+      "gpa": "80%"
     }
   ],
   "experience": [
     {
-      "title": "Software Development Intern",
-      "company": "Tech Company Name",
-      "period": "Summer 2024",
-      "description": "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver features on time.",
+      "title": "Developer and Data Manager",
+      "company": "EduPath, Syria",
+      "period": "December 2025 - Present",
+      "description": "Developing and managing a studying platform, handling content and student data.",
       "achievements": [
-        "Improved application performance by 30%",
-        "Implemented new features used by 10,000+ users"
+        "Managed students, tests, and progress data",
+        "Handled media content including videos, files, and flashcards"
       ]
     },
     {
-      "title": "Freelance Web Developer",
+      "title": "Freelance Full-Stack Web Developer",
       "company": "Self-Employed",
-      "period": "2025 - Present",
-      "description": "Built custom websites and web applications for clients across various industries.",
+      "period": "June 2025 - Present",
+      "description": "Built multiple web applications including e-commerce platforms and educational systems.",
+      "achievements": []
+    },
+    {
+      "title": "Problem Solving Coach",
+      "company": "KPM, Syria",
+      "period": "July 2024 - September 2024",
+      "description": "Taught problem solving and critical thinking to 30+ students through online sessions.",
       "achievements": [
-        
+        "Delivered structured course covering C++, math, and logic",
+        "Conducted tests, sessions, and recorded content"
       ]
     }
   ]
