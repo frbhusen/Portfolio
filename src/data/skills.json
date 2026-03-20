@@ -34,6 +34,8 @@
         { "name": "Vercel", "level": 85, "icon": "vercel" },
         { "name": "Heroku", "level": 85, "icon": "heroku" },
         { "name": "VS Code", "level": 95, "icon": "vscode" },
+        { "name": "Microsoft Excel", "level": 80, "icon": "excel" },
+        { "name": "Microsoft Word", "level": 85, "icon": "word" },
         { "name": "AI", "level": 90, "icon": "ai" },
         { "name": "Generative AI", "level": 90, "icon": "ai" }
       ]
