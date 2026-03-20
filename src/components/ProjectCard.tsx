@@ -58,7 +58,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           ))}
           {project.technologies.length > 4 && (
             <div className="relative group/tech">
-              <span className="px-3 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded-full cursor-help hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+              <span className="px-3 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded-full cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                 +{project.technologies.length - 4}
               </span>
               {/* Tooltip - Vertical List */}
