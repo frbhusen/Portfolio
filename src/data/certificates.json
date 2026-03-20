@@ -1,0 +1,52 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Ethical Hacking with Kali Linux",
+      "issuer": "Coursera",
+      "issueDate": "Nov-2025",
+      "description": "",
+      "skills": ["Virtual Machines", "Bash", "Network Monitoring", "Digital Forensics", "Exploit development", "Intrusion Detection and Prevention", "System Configuration"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PTKJH5HK2R8C",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~PTKJH5HK2R8C/CERTIFICATE_LANDING_PAGE~PTKJH5HK2R8C.jpeg",
+      "featured": true,
+      "category": "Frontend"
+    },
+    {
+      "id": 2,
+      "title": "Back-End Development and APIs",
+      "issuer": "freeCodeCamp",
+      "issueDate": "2025-03",
+      "description": "Built and deployed backend APIs with Node.js and Express, with database integration and testing basics.",
+      "skills": ["Node.js", "Express", "MongoDB", "REST API"],
+      "credentialUrl": "https://freecodecamp.org/certification/example/backend",
+      "certificateImage": null,
+      "featured": true,
+      "category": "Backend"
+    },
+    {
+      "id": 3,
+      "title": "AWS Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2024-11",
+      "description": "Validated foundational cloud knowledge including AWS core services, billing, and architecture principles.",
+      "skills": ["AWS", "Cloud", "Architecture", "Security"],
+      "credentialUrl": "https://aws.amazon.com/verification/example",
+      "certificateImage": null,
+      "featured": false,
+      "category": "Cloud"
+    },
+    {
+      "id": 4,
+      "title": "SQL for Data Analysis",
+      "issuer": "Udemy",
+      "issueDate": "2024-08",
+      "description": "Practical SQL training for querying, aggregations, joins, and reporting workflows.",
+      "skills": ["SQL", "PostgreSQL", "Data Analysis"],
+      "credentialUrl": "https://udemy.com/certificate/example-sql",
+      "certificateImage": null,
+      "featured": false,
+      "category": "Data"
+    }
+  ]
+}
