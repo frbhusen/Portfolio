@@ -23,7 +23,8 @@
     {
       "name": "Databases",
       "skills": [
-        { "name": "MongoDB", "level": 85, "icon": "mongodb" }
+        { "name": "MongoDB", "level": 85, "icon": "mongodb" },
+        { "name": "Microsoft Access", "level": 70, "icon": "access" }
       ]
     },
     {
