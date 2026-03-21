@@ -22,7 +22,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     // Use saved preference when valid, otherwise default to dark.
     const savedTheme = localStorage.getItem('theme') as Theme | null;
     const initialTheme: Theme =
-      savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'dark';
+      savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'light';
     
     setTheme(initialTheme);
     applyTheme(initialTheme);
