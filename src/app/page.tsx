@@ -112,9 +112,9 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { label: 'Projects Completed', value: '15+', icon: '🚀' },
-              { label: 'Technologies', value: '20+', icon: '⚡' },
-              { label: 'Years Experience', value: '2+', icon: '📅' },
-              { label: 'Happy Clients', value: '10+', icon: '😊' },
+              { label: 'Technologies', value: '15+', icon: '⚡' },
+              { label: 'Years Experience', value: '5+', icon: '📅' },
+              { label: 'Happy Clients', value: '3+', icon: '😊' },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
