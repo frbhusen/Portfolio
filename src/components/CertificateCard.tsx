@@ -31,7 +31,7 @@ export default function CertificateCard({ certificate, index }: CertificateCardP
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+      className="relative bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
     >
       <div className="relative h-40 bg-gradient-to-br from-primary-500 to-primary-700 overflow-hidden">
         {showImage ? (
@@ -106,7 +106,7 @@ export default function CertificateCard({ certificate, index }: CertificateCardP
       </div>
 
       {certificate.featured && (
-        <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full">
+        <div className="absolute top-4 right-4 z-20 px-3 py-1 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full">
           ⭐ Featured
         </div>
       )}

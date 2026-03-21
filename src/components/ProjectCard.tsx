@@ -27,7 +27,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+      className="relative bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
     >
       {/* Project Image */}
       <div className="relative h-48 bg-gradient-to-br from-primary-400 to-primary-600 overflow-hidden">
@@ -106,7 +106,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
 
       {/* Featured Badge */}
       {project.featured && (
-        <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full">
+        <div className="absolute top-4 right-4 z-20 px-3 py-1 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full">
           ⭐ Featured
         </div>
       )}
