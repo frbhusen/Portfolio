@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
             <span className="text-primary-600 dark:text-primary-400">&lt;</span>
-            Portfolio
+            HusR0
             <span className="text-primary-600 dark:text-primary-400">/&gt;</span>
           </Link>
 
