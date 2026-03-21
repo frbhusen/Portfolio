@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Full Stack Developer",
+  title: "Hussein Rajab's Portfolio",
   description: "Professional portfolio showcasing projects, skills, and experience in web development",
-  keywords: ["portfolio", "web developer", "full stack", "react", "next.js"],
+  keywords: ["portfolio", "web developer", "full stack", "react", "next.js", "javascript", "typescript", "node.js", "css", "html", "projects", "skills", "experience"],
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="scroll-smooth">
+    <html lang="en" suppressHydrationWarning className="scroll-smooth dark">
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider>
           <div className="min-h-screen bg-[var(--bg-base)] text-[var(--fg-base)] transition-colors duration-300">

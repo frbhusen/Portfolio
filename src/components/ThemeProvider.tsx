@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react';
 
-type Theme = 'dark' | 'light';
+type Theme = 'light' | 'dark';
 
 interface ThemeContextType {
   theme: Theme;
@@ -19,13 +19,16 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Get the saved theme or system preference
+    // Use saved preference when valid, otherwise default to dark.
     const savedTheme = localStorage.getItem('theme') as Theme | null;
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initialTheme = savedTheme || 'dark';
+    const initialTheme: Theme =
+      savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : 'dark';
     
     setTheme(initialTheme);
     applyTheme(initialTheme);
+    if (!savedTheme) {
+      localStorage.setItem('theme', 'dark');
+    }
     setMounted(true);
   }, []);
 
