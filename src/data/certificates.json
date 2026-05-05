@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Introduction to Ethical Hacking Principles",
-      "issuer": "Coursera",
+      "issuer": "SkillUp - Coursera",
       "issueDate": "Sep-2024",
       "description": "",
       "skills": ["Information Systems Security", "Cyber Security Policies", "Cyber Risk", "Application Security", "Responsible AI", "General Data Protection Regulation (GDPR)", "Computer Security", "Data Ethics", "Cyber Governance"],
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "title": "Ethical Hacking with Kali Linux",
-      "issuer": "Coursera",
+      "issuer": "IBM - Coursera",
       "issueDate": "Nov-2025",
       "description": "",
       "skills": ["Virtual Machines", "Bash", "Network Monitoring", "Digital Forensics", "Exploit development", "Intrusion Detection and Prevention", "System Configuration"],
@@ -39,19 +39,41 @@
     {
       "id": 4,
       "title": "Global Diplomacy: the United Nations in the World",
-      "issuer": "Coursera",
+      "issuer": "University of London - Coursera",
       "issueDate": "Dec-2025",
       "description": "",
       "skills": ["Governance", "Social Justice", "Policy Analysis", "Advocacy", "Diplomacy", "International Relations", "Human Development", "Public Policies", "Case Studies", "Crisis Intervention", "Political Sciences", "World History"],
       "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/4K0TUTR96T1N",
       "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~4K0TUTR96T1N/CERTIFICATE_LANDING_PAGE~4K0TUTR96T1N.jpeg",
-      "featured": true,
+      "featured": false,
       "category": "Diplomacy"
     },
-    
-    
     {
-      "id": 8,
+      "id": 5,
+      "title": "C++ Basics: Selection and Iteration",
+      "issuer": "Codio - Coursera",
+      "issueDate": "Nov-2025",
+      "description": "",
+      "skills": ["C++", "Selection", "Iteration", "Programming Fundamentals", "Control Structures", "Loops", "Conditionals", "Syntax", "Problem Solving"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/LRZCA7ILPLEG",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LRZCA7ILPLEG/CERTIFICATE_LANDING_PAGE~LRZCA7ILPLEG.jpeg",
+      "featured": false,
+      "category": "Programming"
+    },
+    {
+      "id": 6,
+      "title": "Developing Websites and Front-Ends with Bootstrap",
+      "issuer": "IBM - Coursera",
+      "issueDate": "May-2026",
+      "description": "",
+      "skills": ["Bootstrap", "Front-End Development", "Web Development", "CSS", "HTML", "Responsive Design", "UI Frameworks", "Web Design Principles"],
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/35NUYCK6REAE",
+      "certificateImage": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~35NUYCK6REAE/CERTIFICATE_LANDING_PAGE~35NUYCK6REAE.jpeg",
+      "featured": false,
+      "category": "Programming"
+    },
+    {
+      "id": 7,
       "title": "Create a Resume and Cover Letter with Google Docs",
       "issuer": "Coursera",
       "issueDate": "March-2026",
