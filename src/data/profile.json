@@ -44,6 +44,13 @@
       "period": "2025 - Present",
       "description": "Focusing on full-stack development using Flask, Node.js, and MongoDB, with an interest in building scalable real-world applications.",
       "gpa": "80%"
+    },
+    {
+      "degree": "Baccalaureate",
+      "institution": "",
+      "period": "2024 - 2025",
+      "description": "",
+      "gpa": "96%"
     }
   ],
   "experience": [
